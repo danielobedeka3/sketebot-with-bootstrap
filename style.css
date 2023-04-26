@@ -12,3 +12,22 @@
     background-color: #cccccc;
     padding: 2em;
 }
+
+.coolStuffWrapper{
+    margin-top: 20px;
+}
+
+button.coolStuffBtn{
+    background-color: red;
+    color: white;
+    display:block;
+    margin:auto;
+}
+
+.modal-title{
+    margin: auto;
+}
+
+.modal-form-wrapper{
+    padding: 2rem;
+}
