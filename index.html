@@ -103,7 +103,8 @@
 
     <!-- Section two -->
     <div class="sectionDark">
-          <div class="row">
+
+        <div class="row">
 
             <div class="col-sm-12 col-md-1 offset-md-2">
               <img src="assets/prodigy.png" alt="" class="img-fluid">
@@ -135,9 +136,9 @@
             </div>
           </div>
           
-          </div>
+        </div>
 
-          <div class="row">
+        <div class="row">
             
             <div class="col-sm-12">
               <div class="coolStuffWrapper">
@@ -145,11 +146,11 @@
             </div>
             </div>
         
-          </div>
+        </div>
 
 
-          <!-- Modal -->
-    <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffModalLabel" aria-hidden="true">
+        <!-- Modal -->
+        <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -189,10 +190,50 @@
           </div>
         </div>
       </div>
-    </div>
+        </div>
+       
+        <!-- Kickflip Modal -->
+        <div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+              </div>
+              <p>kickflips are easy. Pop, flick, catch, land. #BOOM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 360 Flip -->
+        <div class="modal fade 360-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+              </div>
+              <p>360 flips are easy. Pop, scissor kick, catch, land. #BOOM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- bs Crook -->
+        <div class="modal fade bscrook-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+              </div>
+              <p>kickflips are easy. Pop, flick, catch, land. #BOOM</p>
+            </div>
+          </div>
+        </div>
 
 
     </div>
+
+
+
+    <!-- Light Section -->
 <div class="sectionLight">
   <div class="row">
     <div class="col-sm-12">
@@ -201,7 +242,7 @@
           <img src="assets/kickflip.jpg" alt="" class="img-fluid imgCenter">
           <div class="row">
             <div class="col-sm-12">
-            <button type="button" class="btn btn-lg btnCenter btn-danger">kickflip</button>
+            <button type="button" class="btn btn-lg btnCenter btn-danger" data-toggle="modal" data-target=".kf-modal-lg">kickflip</button>
           </div>
           </div>
         </div>
@@ -209,15 +250,15 @@
           <img src="assets/360flip.jpg" alt="" class="img-fluid imgCenter">
           <div class="row">
             <div class="col-sm-12">
-            <button type="button" class="btn btn-lg btnCenter btn-danger">kickflip</button>
+            <button type="button" class="btn btn-lg btnCenter btn-danger"  data-toggle="modal" data-target=".360-modal-md">360 Flip</button>
           </div>
           </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-          <img src="assets/kickflip.jpg" alt="" class="img-fluid imgCenter">
+          <img src="./assets/bscrook.jpg" alt="" class="img-fluid imgCenter">
           <div class="row">
             <div class="col-sm-12">
-            <button type="button" class="btn btn-lg btnCenter btn-danger">kickflip</button>
+            <button type="button" class="btn btn-lg btnCenter btn-danger" data-toggle="modal" data-target=".bscrook-modal-sm">BS Crook</button>
           </div>
           </div>
         </div>
