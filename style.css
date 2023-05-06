@@ -47,3 +47,23 @@ button.coolStuffBtn{
 .footerImg{
     padding:15px;
 }
+
+.fa-square-facebook{
+    color:#3b5998;
+}
+
+.fa-square-google-plus{
+    color:#c32f10;
+}
+
+.fa-instagram{
+    color:#ffffff;
+}
+
+.fa-brands{
+    margin:10px;
+}
+
+.socialWrapper{
+    margin:auto;
+}
